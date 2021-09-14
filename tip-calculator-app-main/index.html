@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="splitter">SPLI<br />TTER</div>
+    <div class="container">
+      <div class="left">
+        <div class="bill text-small">Bill</div>
+        <label for="bill">$</label>
+        <input type="text" class="bill-value" placeholder="0" />
+        <div class="tip-percent text-small">Select Tip %</div>
+        <div class="tip-container">
+          <button class="tip tip-five">5%</button>
+          <button class="tip tip-five">10%</button>
+          <button class="tip tip-15">15%</button>
+          <button class="tip tip-five">25%</button>
+          <button class="tip tip-five">50%</button>
+          <button class="tip tip-custom">Custom</button>
+        </div>
+        <div class="total-people text-small">Number of People</div>
+        <label for="bill">👤</label>
+        <input type="text" class="people-count" placeholder="0" />
+      </div>
+      <div class="right">
+        <div class="top">
+          <div class="amount-container">
+            <div class="tip-left">
+              <div class="tip-amount text-small">Tip Amount</div>
+              <p class="per-person text-small">/ person</p>
+            </div>
+            <div class="tip-right">$4.27</div>
+          </div>
+          <div class="amount-container">
+            <div class="tip-left">
+              <div class="total-tip-amount text-small">Total</div>
+              <p class="per-person text-small">/ person</p>
+            </div>
+            <div class="tip-right">$46.62</div>
+          </div>
+        </div>
+        <div class="bottom">
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded with ❤ by
+      <a href="https://m-yusuf-portfolio.netlify.app" target="_black"
+        >Mohammad Yusuf Khan</a
+      >.
+    </div>
+  </body>
+</html>
