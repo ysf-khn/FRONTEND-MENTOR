@@ -171,6 +171,37 @@ label {
   color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (max-width: 400px) {
+  .splitter {
+    margin-bottom: 1em;
+  }
+
+  .container {
+    width: 100vw;
+    grid-template-columns: 1fr;
+  }
+
+  .tip-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tip-container button {
+    width: 100%;
+  }
+
+  .tip-custom-value {
+    text-align: center;
+  }
+
+  .right {
+    grid-row-gap: 1em;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
 /* - Strong cyan: hsl(172, 67%, 45%)
 
 ### Neutral
