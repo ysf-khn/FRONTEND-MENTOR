@@ -17,6 +17,7 @@ body {
 
 button {
   font-family: 'Space Mono', monospace;
+  cursor: pointer;
 }
 
 input {
@@ -31,11 +32,16 @@ input {
   letter-spacing: 0.1em;
 }
 
+input:focus {
+  outline: none;
+}
+
 label {
   position: absolute;
   color: hsl(184, 14%, 56%);
   margin-left: 0.7em;
-  margin-top: 0.1em;
+  margin-top: 0.3em;
+  transform: scale(0.8);
 }
 
 .text-small {
@@ -85,7 +91,7 @@ label {
 .tip {
   font-weight: 600;
   padding: 0.5em;
-  width: 5em;
+  width: 6em;
   color: white;
   border: none;
   border-radius: 5px;
@@ -102,6 +108,7 @@ label {
   background-color: hsl(189, 41%, 97%);
   color: hsl(184, 14%, 56%);
   font-weight: 700;
+  padding: 0;
 }
 
 .right {
@@ -111,6 +118,7 @@ label {
   border-radius: 0.5em;
   display: grid;
   grid-row-gap: 4em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .tip-right {
@@ -149,9 +157,13 @@ label {
   justify-content: space-between;
 }
 
+.btn-highlight {
+  background-color: hsl(185, 41%, 84%);
+}
+
 .attribution {
   position: absolute;
-  bottom: 0px;
+  bottom: 0.5em;
   font-size: 11px;
   text-align: center;
 }
