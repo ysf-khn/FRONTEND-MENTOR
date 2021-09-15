@@ -18,7 +18,7 @@
     <div class="container">
       <div class="left">
         <div class="bill text-small">Bill</div>
-        <label for="bill">$</label>
+        <label for="bill"><img src="./images/icon-dollar.svg" /></label>
         <input type="text" class="bill-value" placeholder="0" />
         <div class="tip-percent text-small">Select Tip %</div>
         <div class="tip-container">
@@ -27,10 +27,12 @@
           <button class="tip tip-15">15%</button>
           <button class="tip tip-five">25%</button>
           <button class="tip tip-five">50%</button>
-          <button class="tip tip-custom">Custom</button>
+          <button class="tip tip-custom">
+            <input type="text" class="tip-custom-value" placeholder="Custom" />
+          </button>
         </div>
         <div class="total-people text-small">Number of People</div>
-        <label for="bill">👤</label>
+        <label for="bill"><img src="./images/icon-person.svg" /></label>
         <input type="text" class="people-count" placeholder="0" />
       </div>
       <div class="right">
@@ -40,14 +42,14 @@
               <div class="tip-amount text-small">Tip Amount</div>
               <p class="per-person text-small">/ person</p>
             </div>
-            <div class="tip-right">$4.27</div>
+            <div class="tip-per-person tip-right">$0.00</div>
           </div>
           <div class="amount-container">
             <div class="tip-left">
               <div class="total-tip-amount text-small">Total</div>
               <p class="per-person text-small">/ person</p>
             </div>
-            <div class="tip-right">$46.62</div>
+            <div class="total-per-person tip-right">$0.00</div>
           </div>
         </div>
         <div class="bottom">
